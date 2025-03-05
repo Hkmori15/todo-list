@@ -2,7 +2,7 @@
 
 A simple terminal-based todo-list written in modern C++23
 
-## Features:
+## Features 📃:
 
 - Add new tasks
 - Mark tasks as completed
@@ -10,12 +10,12 @@ A simple terminal-based todo-list written in modern C++23
 - View all tasks
 - Persistent storage in a text file
 
-## Requirements:
+## Requirements 📌:
 
 - C++23 compatible compiler
 - CMake 3.15 or higher
 
-## Installing/Building:
+## Installing/Building 📁:
 
 1. Clone the repo:
 ```bash
@@ -34,21 +34,21 @@ cmake ..
 cmake --build .
 ```
 
-## Usage:
+## Usage ☕:
 
 Run the todo-list:
 ```bash
 ./todo_list
 ```
 
-**Available commands**:
+**Available commands** ❗:
 - **1** Add task
 - **2** Mark task as completed
 - **3** Remove task
 - **4** Show tasks
 - **5** Exit
 
-## File Storage:
+## File Storage 🔒:
 
 Tasks aru automatically saved to **tasks.txt&** in the following format:
 ```<completed>;<desc>```
